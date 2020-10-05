@@ -5,7 +5,7 @@ function getPanorama(name){
 
 	xhr.send();
 	
-	return xhr.responseText;
+	return JSON.parse(xhr.responseText);
 
 }
 
