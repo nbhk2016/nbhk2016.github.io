@@ -5,5 +5,5 @@
     "minPitch": -30,
     "maxPitch": 30,
     "minHfov": -75,
-    "maxHfov": 75,
+    "maxHfov": 75
 }
