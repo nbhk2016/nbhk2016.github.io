@@ -1,4 +1,9 @@
 {
 	"type": "equirectangular",
-	"panorama": "img/a_corp.jpg"
+	"panorama": "img/a_corp.jpg",
+	"vaov": 60,
+    "minPitch": -30,
+    "maxPitch": 30,
+    "minHfov": -75,
+    "maxHfov": 75,
 }
