@@ -9,4 +9,4 @@ function getPanorama(name){
 
 }
 
-pannellum.viewer('panorama', getPanorama('test'));
+pannellum.viewer('panorama', getPanorama('a_corp'));
