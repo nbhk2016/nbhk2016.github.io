@@ -1,38 +1,14 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partial panorama</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
-    <style>
-    #panorama {
-        width: 600px;
-        height: 400px;
-    }
-    </style>
-</head>
-<body>
-    <ul>
-        <li><a href="index.html">Улица корпуса А</a></li>
-        <li><a href="ground.html">Хол корпуса А</a></li>
-        <li><a href="geofak.html">Геофак</a></li>
-        <li><a href="fiztex.html">Физтех</a></li>
-    </ul>
-<div id="panorama"></div>
-<script>
-pannellum.viewer('panorama', {
-    "type": "equirectangular",
-    "panorama": "https://i.imgur.com/N2OZFqi.jpg",
-    //"haov": 149.87,
-    "vaov": 60,
-    "minPitch": -30,
-    "maxPitch": 30,
-    "minHfov": -75,
-    "maxHfov": 75,
-});
-</script>
-
-</body>
+	<head>
+		<title>Panoramas</title>
+		<script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="panorama"></div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
 </html>
