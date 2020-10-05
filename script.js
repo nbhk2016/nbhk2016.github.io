@@ -9,4 +9,4 @@ function getPanorama(name){
 
 }
 
-console.log(getPanorama('test'))
+console.log(getPanorama('test.json'))
