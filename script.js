@@ -1,6 +1,12 @@
-async function main(){
-	//pannellum.viewer('panorama', await fetch('panoramas/test.json'));
-	console.log((await fetch('panoramas/test.json')).json()s)
+function getPanorama(name){
+	const xhr = new XMLHttpRequest();
+
+	xhr.open('GET', 'panoramas/' + name, false);
+
+	xhr.send();
+	
+	return xhr.responseText;
+
 }
 
-main()
+console.log(getPanorama('test'))
