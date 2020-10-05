@@ -1,7 +1,7 @@
 function getPanorama(name){
 	const xhr = new XMLHttpRequest();
 
-	xhr.open('GET', 'panoramas/' + name, false);
+	xhr.open('GET', 'panoramas/' + name + '.json', false);
 
 	xhr.send();
 	
@@ -9,4 +9,4 @@ function getPanorama(name){
 
 }
 
-console.log(getPanorama('test.json'))
+pannellum.viewer('panorama', getPanorama('test'));
